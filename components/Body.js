@@ -44,7 +44,7 @@ function Body() {
           <button onClick={search} className="btn">
             Google Search
           </button>
-          <Link href="https://perfects.engineering">
+          <Link href="https://perfects.engineering" passHref={true}>
             <button className="btn">I'm Feeling Lucky</button>
           </Link>
         </div>
